@@ -1,0 +1,5 @@
+export { HeroLoan } from "./HeroLoan"
+export { FeaturesLoan } from "./FeaturesLoan"
+export { EMICalculator } from "./EMICalculator"
+export { FAQ } from "./FAQ"
+export { CTAFooter } from "./CTAFooter"

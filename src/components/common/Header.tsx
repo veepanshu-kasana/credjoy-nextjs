@@ -21,10 +21,9 @@ import {
 import { Button } from "@/components/ui/button"
 
 const loans = [
-  { href: "/loans/personal", label: "Personal Loan" },
-  { href: "/loans/home", label: "Home Loan" },
-  { href: "/loans/education", label: "Education Loan" },
-  { href: "/loans/car", label: "Car Loan" },
+  { href: "/home-loan", label: "Home Loan" },
+  { href: "/education-loan", label: "Education Loan" },
+  { href: "/car-loan", label: "Car Loan" },
 ]
 
 function Navbar() {

@@ -1,9 +1,21 @@
-import React from 'react'
+import {
+  HeroLoan,
+  FeaturesLoan,
+  EMICalculator,
+  FAQ,
+  CTAFooter,
+} from "@/components/homeloan"
 
 function HomeLoanPage() {
   return (
-    <div>HomeLoanPage</div>
+    <main className="bg-[#f0eef9]">
+      <HeroLoan />
+      <FeaturesLoan />
+      <EMICalculator />
+      <FAQ />
+      <CTAFooter />
+    </main>
   )
 }
 
-export default HomeLoanPage
+export default HomeLoanPage;
